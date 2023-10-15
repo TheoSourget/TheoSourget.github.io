@@ -48,10 +48,10 @@ projects:
 - name: Astronomical observation website
   timeline: "2020"
   #url: ""
-  summary: Development of an astronomical observation website with React-Flask-MongoDB
+  summary: Development of an astronomical observation website with React-Flask-MongoDB.
   tags: ["Web", "React","Flask","MongoDB"]
 
 - name: Applicharge
   timeline: "2019-2020 "
-  summary: Development of a website and a mobile application for sports management with React/React Native
+  summary: Development of a website and a mobile application for sports management with React/React Native.
   tags: ["Web","Mobile","Sport","React","MERN stack"]
