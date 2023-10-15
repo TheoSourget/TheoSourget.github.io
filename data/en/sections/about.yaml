@@ -26,10 +26,6 @@ These projects were also about training transformer models with small datasets a
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
-- name: Email
-  icon: "fas fa-envelope"
-  url: "tsou@itu.dk"
-
 - name: Github
   icon: "fab fa-github"
   url: "https://github.com/TheoSourget"
@@ -37,6 +33,10 @@ socialLinks:
 - name: LinkedIn
   icon: "fab fa-linkedin"
   url: "https://www.linkedin.com/in/theo-sourget/"
+- name: Email
+  icon: "fas fa-envelope"
+  url: "tsou@itu.dk"
+
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
