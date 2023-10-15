@@ -2,16 +2,16 @@
 name: "Théo Sourget"
 nickname: "Théo Sourget"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hi, I am"
+greeting: "Bonjour, je suis"
 image: "images/author/theo_s.jpeg"
 # give your some contact information. they will be used in the footer
 contactInfo:
-  email: "tsou@itu.dk"
+  email: "tsou@itu.df"
   github: TheoSourget
   linkedin: theo-sourget
 
 # some summary about what you do
 summary:
-  - I am a Data Scientist
-  - I am a Research Assistant
-  - I am interested in Medical Image Analysis
+  - Je suis un Data Scientist
+  - Je suis un Assistant Recherche
+  - Je suis intéressé par l'analyse d'imagerie médicale

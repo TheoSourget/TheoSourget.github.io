@@ -7,7 +7,7 @@ You can modify or distribute the theme without requiring any permission from the
 However, the theme author does not provide any warranty or takes any liability for any issue with the theme."
 
 # Meta description for your site.  This will help the search engines to find your site.
-description: Portfolio and personal blog of Théo Sourget.
+description: Portfolio and personal blog of John Doe.
 
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
@@ -22,8 +22,8 @@ description: Portfolio and personal blog of Théo Sourget.
 
 # Specify OpenGraph Headers
 openGraph:
-  title: Théo Sourget site
+  title: Théo Sourget
   type: website
-  description: Portfolio and personal blog of Théo sourget.
+  description: Site personnel de Théo Sourget.
   image: images/author/theo_sourget.jpg
   url: https://hugo-toha.github.io

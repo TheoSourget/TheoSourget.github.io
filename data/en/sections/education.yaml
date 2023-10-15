@@ -10,81 +10,33 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Quantum Cryptography
-  icon: fa-microscope
-  timeframe: 2016-2020
-  institution:
-    name: ABC University of Technology
-    url: "#"
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.6
-    outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
-- name: B.Sc. in Computer Science & Engineering
+- name: Master Data Science and Engineering (SID)
   icon: fa-graduation-cap
-  timeframe: 2012-2016
+  timeframe: 2021-2023
   institution:
-    name: University of XYZ
-    url: "#"
+    name: Université de Rouen
+    url: "http://mastersid.univ-rouen.fr/en/index.php"
   grade: #(optional)
-    scale: CGPA
-    achieved: 3.5
-    outOf: 4
-  takenCourses: #(optional)
-    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: true
-    collapseAfter: 3
-    courses:
-    - name: Data Structures and Algorithm
-      achieved: 3.75
-      outOf: 4
-    - name: Network Security
-      achieved: 3.80
-      outOf: 4
-    - name: Operating System
-      achieved: 3.5
-      outOf: 4
-    - name: Artificial Intelligent
-      achieved: 3.75
-      outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Higher Secondary School Certificate
+    scale: Grade
+    achieved: 16.215 
+    outOf: 20 (Graduated with Highest Honors)
+
+- name: Bachelor's degree in Computer Science and Data Science
   icon: fa-university
-  timeframe: 2010-2012
+  timeframe: 2020-2021
   institution:
-    name: MST College of Science
-    url: "#"
+    name: Université de Rouen
   grade: #(optional)
-    scale: GPA
-    achieved: 5
-    outOf: 5
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Secondary School Certificate
-  icon: fa-school
-  timeframe: 2005-2010
+    scale: Grade
+    achieved: 14.958 
+    outOf: 20 (Graduated with Honors)
+
+- name: 2 years diploma in Computer science
+  icon:  fa-university
+  timeframe: 2018-2020
   institution:
-    name: JK School of Science
+    name: IUT de Vannes
   grade: #(optional)
-    scale: GPA
-    achieved: 4.5
-    outOf: 5
+    scale: Grade
+    achieved: 13.835
+    outOf: 20
