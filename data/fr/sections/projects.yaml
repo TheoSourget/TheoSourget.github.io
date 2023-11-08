@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Projects
+  name: Projets
   id: projects
   enable: true
   weight: 5
@@ -12,53 +12,46 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: Professional
-  filter: "professional"
-- name: Academic
-  filter: "academic"
-- name: Hobby
-  filter: "hobby"
+- name: Medical Image Analysis
+  filter: "Medical Image Analysis"
+- name: Sport
+  filter: "Sport"
+- name: Web
+  filter: "Web"
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+- name: Citation finder
+  timeline: "2023"
+  repo: https://github.com/TheoSourget/citation_finder # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
+  summary: Website multiple API such as OpenAlex to search for papers referencing another one and papers matching keywords and concept.
+  tags: ["Web", "API", "Streamlit","FastAPI","Docker"]
 
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
-  role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
+- name: Research project Master 2
+  timeline: "2022 - 2023"
+  repo: https://github.com/TheoSourget/SegFormer_CAMUS # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Comparison of Segformer and U-Net to perform semantic segmentation on the CAMUS dataset (cardiac ultrasound images).
+  tags: ["Medical Image Analysis", "Segmentation", "Transformer","Pytorch"]
+
+- name: Research project Master 1
+  timeline: "2021 - 2022"
+  summary: Classification of eye fundus images for glaucoma detection with convolutional neural network.
+  tags: ["Medical Image Analysis", "Classification","Tensorflow","CNN"]
+
+- name: Bachelor's degree project
+  timeline: "2020 - 2021"
+  summary: Analysis of a dataset on the 2011-2012 season of the Premier League.
+  tags: ["Data Analysis","Sport","Matplotlib","Pandas"]
+
+- name: Astronomical observation website
+  timeline: "2020"
   #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
+  summary: Development of an astronomical observation website with React-Flask-MongoDB.
+  tags: ["Web", "React","Flask","MongoDB"]
 
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
-
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
-
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+- name: Applicharge
+  timeline: "2019-2020 "
+  summary: Development of a website and a mobile application for sports management with React/React Native.
+  tags: ["Web","Mobile","Sport","React","MERN stack"]
