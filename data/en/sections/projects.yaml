@@ -21,8 +21,8 @@ buttons:
 
 # your projects
 projects:
-- name: Citation finder
-  timeline: "2023"
+- name: PDF Annotator
+  timeline: "2024"
   repo: https://github.com/TheoSourget/pdf_annotator # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Web APP to annotate PDF File. The files can be annotate by multiple users for up to two initial sets of labels.
@@ -35,14 +35,14 @@ projects:
   summary: Website multiple API such as OpenAlex to search for papers referencing another one and papers matching keywords and concept.
   tags: ["Web", "API", "Streamlit","FastAPI","Docker"]
 
-- name: Research project Master 2
+- name: Comparaison of UNet and SegFormer for medical image segmentation (Master 2 project)
   timeline: "2022 - 2023"
   repo: https://github.com/TheoSourget/SegFormer_CAMUS # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Comparison of Segformer and U-Net to perform semantic segmentation on the CAMUS dataset (cardiac ultrasound images).
   tags: ["Medical Image Analysis", "Segmentation", "Transformer","Pytorch"]
 
-- name: Research project Master 1
+- name: Glaucoma Detection with CNN (Master 1 project)
   timeline: "2021 - 2022"
   summary: Classification of eye fundus images for glaucoma detection with convolutional neural network.
   tags: ["Medical Image Analysis", "Classification","Tensorflow","CNN"]
