@@ -17,7 +17,7 @@ skills:
 
 - name: Streamlit
   logo: /images/sections/skills/streamlit.svg
-  summary: "Create multiple tools for either demonstration or usage purpose."
+  summary: "I created multiple tools with Streamlit to showcase my work or to make open access tools."
 
 - name: API
   logo: /images/sections/skills/api.png
@@ -29,9 +29,9 @@ skills:
 
 - name: Linux
   logo: /images/sections/skills/linux.png
-  summary: "Used as my main operating system for 4 years."
+  summary: "I've been using Linux as my main operating system for 4 years."
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. I've used both Github and Gitlab."
+  summary: "I'm experienced with git-based development. I've used both Github and Gitlab."
 
