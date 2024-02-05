@@ -26,10 +26,16 @@ experiences:
     responsibilities:
     - Study how public medical image datasets are referenced in research papers 
 
+  - designation: Assistant Lecturer
+    start: January 2024
+    responsibilities:
+    - Prepare and teach lectures
+    - Prepare exercises sessions 
+  
   - designation: Teaching Assistant
     start: October 2023
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
+    end: Dec 2023
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - Help students during practical work 

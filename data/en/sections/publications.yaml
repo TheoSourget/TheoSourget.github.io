@@ -39,6 +39,25 @@ publications:
   categories: ["machinelearning","medical"]
   tags: ["Segmentation", "CNN", "Transformer"]
 
+- title: "Detection Transformer for Teeth Detection, Segmentation, and Numbering in Oral Rare Diseases: Focus on Data Augmentation and Inpainting Techniques"
+  publishedIn:
+    name: The 2023 International Conference on Computational Science & Computational Intelligence (CSCI'23)
+    date: December 2023
+    url: https://american-cse.org/index.html/
+  authors:
+  - name: Kadi Hocine 
+  - name: Théo Sourget
+    url: https://tsourget.fr
+  - name: Kawczynski Marzena 
+  - name: Bendjama Sara
+  - name: Grollemund Bruno
+  - name: Bloch-Zupan Agnès 
+  paper:
+    summary: In this work, we focused on deep learning image processing in the context of oral rare diseases, which pose challenges due to limited data availability. A crucial step involves teeth detection, segmentation and numbering in panoramic radiographs. To this end, we used a dataset consisting of 156 panoramic radiographs from individuals with rare oral diseases and labeled by experts. We trained the Detection Transformer (DETR) neural network for teeth detection, segmentation, and numbering the 52 teeth classes. In addition, we used data augmentation techniques, including geometric transformations. Finally, we generated new panoramic images using inpainting techniques with stable diffusion, by removing teeth from a panoramic radiograph and integrating teeth into it. The results showed a mAP exceeding 0,69 for DETR without data augmentation. The mAP was improved to 0,82 when data augmentation techniques are used. Furthermore, we observed promising performances when using new panoramic radiographs generated with inpainting technique, with mAP of 0,76. 
+    #url: https://hal.science/hal-04161509/
+  categories: ["machinelearning","medical"]
+  tags: ["Instance Segmentation", "Data Generation", "Transformer"]
+
 # - title: An Example Paper on Security
 #   publishedIn:
 #     name: 2020 IEEE Region Symposium (TENSYMP)

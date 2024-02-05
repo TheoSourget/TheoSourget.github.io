@@ -13,11 +13,11 @@ section:
 skills:
 - name: Python
   logo: /images/sections/skills/python.png
-  summary: "Python is the language I code the most with. I've used many libraries for Data science such as PyTorch, Pandas, scikit-learn and numpy in various projects and context."
+  summary: "Python is the language I use the most. I've used many libraries for Data Science such as PyTorch, Pandas, scikit-learn and numpy."
 
 - name: Streamlit
   logo: /images/sections/skills/streamlit.svg
-  summary: "Used to create and demonstrate tools with this web framework."
+  summary: "Create multiple tools for either demonstration or usage purpose."
 
 - name: API
   logo: /images/sections/skills/api.png
@@ -25,11 +25,11 @@ skills:
 
 - name: Docker 
   logo: /images/sections/skills/docker.svg
-  summary: "I've used Docker in multiple projects especially in combination with Streamlit and FastAPI to before to ease the deployment models or tools."
+  summary: "I've used Docker in multiple projects especially in combination with Streamlit and FastAPI to ease the deployment of models or tools."
 
 - name: Linux
   logo: /images/sections/skills/linux.png
-  summary: "Using as my main operating system for 3 years."
+  summary: "Used as my main operating system for 4 years."
 
 - name: Git
   logo: /images/sections/skills/git.png
