@@ -58,6 +58,27 @@ publications:
   categories: ["machinelearning","medical"]
   tags: ["Instance Segmentation", "Data Generation", "Transformer"]
 
+- title: "[Citation needed] Data usage and citation practices in medical imaging conferences"
+  # publishedIn:
+  #   name: The 2023 International Conference on Computational Science & Computational Intelligence (CSCI'23)
+  #   date: December 2023
+  #   url: https://american-cse.org/index.html/
+  authors:
+  - name: Théo Sourget
+    url: https://tsourget.fr
+  - name: Ahmet Akkoç 
+  - name: Stinna Winther
+  - name: Christine Lyngbye Galsgaard
+  - name: Amelia Jiménez-Sánchez
+  - name: Dovile Juodelyte 
+  - name: Caroline Petitjean
+  - name: Veronika Cheplygina
+  paper:
+    summary: "Medical imaging papers often focus on methodology, but the quality of the algorithms and the validity of the conclusions are highly dependent on the datasets used. As creating datasets requires a lot of effort, researchers often use publicly available datasets, there is however no adopted standard for citing the datasets used in scientific papers, leading to difficulty in tracking dataset usage. In this work, we present two open-source tools we created that could help with the detection of dataset usage, a pipeline using OpenAlex and full-text analysis, and a PDF annotation software used in our study to manually label the presence of datasets. We applied both tools on a study of the usage of 20 publicly available medical datasets in papers from MICCAI and MIDL. We compute the proportion and the evolution between 2013 and 2023 of 3 types of presence in a paper: cited, mentioned in the full text, cited and mentioned. Our findings demonstrate the concentration of the usage of a limited set of datasets. We also highlight different citing practices, making the automation of tracking difficult."
+    url: https://arxiv.org/abs/2402.03003
+  categories: ["machinelearning","medical"]
+  tags: ["Bibliometrics", "Datasets", "Medical Imaging", "Meta-analysis","Open-Access tools"]
+
 # - title: An Example Paper on Security
 #   publishedIn:
 #     name: 2020 IEEE Region Symposium (TENSYMP)
