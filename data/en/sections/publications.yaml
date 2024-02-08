@@ -54,7 +54,7 @@ publications:
   - name: Bloch-Zupan Agnès 
   paper:
     summary: In this work, we focused on deep learning image processing in the context of oral rare diseases, which pose challenges due to limited data availability. A crucial step involves teeth detection, segmentation and numbering in panoramic radiographs. To this end, we used a dataset consisting of 156 panoramic radiographs from individuals with rare oral diseases and labeled by experts. We trained the Detection Transformer (DETR) neural network for teeth detection, segmentation, and numbering the 52 teeth classes. In addition, we used data augmentation techniques, including geometric transformations. Finally, we generated new panoramic images using inpainting techniques with stable diffusion, by removing teeth from a panoramic radiograph and integrating teeth into it. The results showed a mAP exceeding 0,69 for DETR without data augmentation. The mAP was improved to 0,82 when data augmentation techniques are used. Furthermore, we observed promising performances when using new panoramic radiographs generated with inpainting technique, with mAP of 0,76. 
-    #url: https://hal.science/hal-04161509/
+    url: https://arxiv.org/abs/2402.04408
   categories: ["machinelearning","medical"]
   tags: ["Instance Segmentation", "Data Generation", "Transformer"]
 
@@ -78,23 +78,3 @@ publications:
     url: https://arxiv.org/abs/2402.03003
   categories: ["machinelearning","medical"]
   tags: ["Bibliometrics", "Datasets", "Medical Imaging", "Meta-analysis","Open-Access tools"]
-
-# - title: An Example Paper on Security
-#   publishedIn:
-#     name: 2020 IEEE Region Symposium (TENSYMP)
-#     date: 7 June 2020
-#     url: https://example.com
-#   authors:
-#   - name: Dr. Madman
-#     url: https://example.com
-#   - name: Dr. Lessmad
-#     url: https://example.com
-#   - name: Dr. Moremad
-#     url: https://example.com
-#   - name: Dr. Goodman
-#     url: https://example.com
-#   paper:
-#     summary: Dolor ad cupidatat pariatur nulla ipsum ex ullamco nisi anim ullamco. Dolore elit esse in exercitation minim aliqua. Amet velit incididunt magna laboris. Proident reprehenderit deserunt ad officia duis dolor. Tempor nostrud ullamco ullamco sint deserunt cupidatat irure minim consectetur nulla adipisicing sunt.
-#     url: https://example.com
-#   categories: ["security"]
-#   tags: ["Machine Learning", "Autonomous Driving", "Machine Vision"]
