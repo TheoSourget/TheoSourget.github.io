@@ -19,7 +19,7 @@ degrees:
   grade: #(optional)
     scale: Grade
     achieved: 16.215 
-    outOf: 20 (Graduated with Highest Honors)
+    outOf: 20 (Valedictorian, Graduated with Highest Honors)
 
 - name: Bachelor's degree in Computer Science and Data Science
   icon: fa-university
@@ -29,7 +29,7 @@ degrees:
   grade: #(optional)
     scale: Grade
     achieved: 14.958 
-    outOf: 20 (Graduated with Honors)
+    outOf: 20 (Valedictorian, Graduated with Honors)
 
 - name: 2 years diploma in Computer science
   icon:  fa-university
