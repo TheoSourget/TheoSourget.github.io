@@ -19,7 +19,7 @@ company:
 #resume: "files/resume.pdf"
 
 # a summary about you
-summary: "Passionate about Data Science and AI, I gratuated in 2023 from my Master's degree at the [Université de Rouen](http://mastersid.univ-rouen.fr/en/index.php). 
+summary: "Passionate about Data Science and AI, I graduated in 2023 with a Master's degree in Data Science at the [Université de Rouen](http://mastersid.univ-rouen.fr/en/index.php). 
 During my studies I've specialised myself in Medical Image Analysis with projects focusing on the classification and segmentation of medical images using deep learning models. 
 These projects were also about training transformer models with small datasets and the effect of Data Augmentation and Transfer learning. I'm now a Research Assistant of the [PURRlab](https://purrlab.github.io/) at the IT University of Copenhagen" 
 

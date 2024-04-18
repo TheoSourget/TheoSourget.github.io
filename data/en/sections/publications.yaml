@@ -19,25 +19,26 @@ section:
 
 # your publications
 publications:
-- title: Can SegFormer be a True Competitor to U-Net for Medical Image Segmentation?
+- title: "[Citation needed] Data usage and citation practices in medical imaging conferences"
   publishedIn:
-    name: 27th Conference on Medical Image Understanding and Analysis (MIUA)
-    date: July 2023
-    url: https://www.abdn.ac.uk/events/conferences/miua2023.php
+    name: Medical Imaging with Deep Learning 2024 (MIDL'24)
+    date: July 2024
+    url: https://2024.midl.io/
   authors:
   - name: Théo Sourget
     url: https://tsourget.fr
-  - name: Syed Nouman Hasany 
-    url: https://www.linkedin.com/in/syed-nouman-hasany-b4648b100
-  - name: Fabrice Mériaudeau 
-    url: https://fr.linkedin.com/in/fabrice-meriaudeau-1aa2711a
-  - name: Caroline Petitjean 
-    url: https://fr.linkedin.com/in/caroline-petitjean-2922a42
+  - name: Ahmet Akkoç 
+  - name: Stinna Winther
+  - name: Christine Lyngbye Galsgaard
+  - name: Amelia Jiménez-Sánchez
+  - name: Dovile Juodelyte 
+  - name: Caroline Petitjean
+  - name: Veronika Cheplygina
   paper:
-    summary: The U-Net model, introduced in 2015, is established as the state-of-the-art architecture for medical image segmentation, along with its variants UNet++, nnU-Net, V-Net, etc. Vision transformers made a breakthrough in the computer vision world in 2021. Since then, many transformer based architectures or hybrid architectures (combining convolutional blocks and transformer blocks) have been proposed for image segmentation, that are challenging the predominance of U-Net. In this paper, we ask the question whether transformers could overtake U-Net for medical image segmentation. We compare SegFormer, one of the most popular transformer architectures for segmentation, to U-Net using three publicly available medical image datasets that include various modalities and organs with the segmentation of cardiac structures in ultrasound images from the CAMUS challenge, the segmentation of polyp in endoscopy images and the segmentation of instrument in colonoscopy images from the MedAI challenge. We compare them in the light of various metrics (segmentation performance, training time) and show that SegFormer can be a true competitor to U-Net and should be carefully considered for future tasks in medical image segmentation. 
-    url: https://hal.science/hal-04161509/
+    summary: "Medical imaging papers often focus on methodology, but the quality of the algorithms and the validity of the conclusions are highly dependent on the datasets used. As creating datasets requires a lot of effort, researchers often use publicly available datasets, there is however no adopted standard for citing the datasets used in scientific papers, leading to difficulty in tracking dataset usage. In this work, we present two open-source tools we created that could help with the detection of dataset usage, a pipeline using OpenAlex and full-text analysis, and a PDF annotation software used in our study to manually label the presence of datasets. We applied both tools on a study of the usage of 20 publicly available medical datasets in papers from MICCAI and MIDL. We compute the proportion and the evolution between 2013 and 2023 of 3 types of presence in a paper: cited, mentioned in the full text, cited and mentioned. Our findings demonstrate the concentration of the usage of a limited set of datasets. We also highlight different citing practices, making the automation of tracking difficult."
+    url: https://arxiv.org/abs/2402.03003
   categories: ["machinelearning","medical"]
-  tags: ["Segmentation", "CNN", "Transformer"]
+  tags: ["Bibliometrics", "Datasets", "Medical Imaging", "Meta-analysis","Open-Access tools"]
 
 - title: "Detection Transformer for Teeth Detection, Segmentation, and Numbering in Oral Rare Diseases: Focus on Data Augmentation and Inpainting Techniques"
   publishedIn:
@@ -58,23 +59,24 @@ publications:
   categories: ["machinelearning","medical"]
   tags: ["Instance Segmentation", "Data Generation", "Transformer"]
 
-- title: "[Citation needed] Data usage and citation practices in medical imaging conferences"
-  # publishedIn:
-  #   name: The 2023 International Conference on Computational Science & Computational Intelligence (CSCI'23)
-  #   date: December 2023
-  #   url: https://american-cse.org/index.html/
+- title: Can SegFormer be a True Competitor to U-Net for Medical Image Segmentation?
+  publishedIn:
+    name: 27th Conference on Medical Image Understanding and Analysis (MIUA)
+    date: July 2023
+    url: https://www.abdn.ac.uk/events/conferences/miua2023.php
   authors:
   - name: Théo Sourget
     url: https://tsourget.fr
-  - name: Ahmet Akkoç 
-  - name: Stinna Winther
-  - name: Christine Lyngbye Galsgaard
-  - name: Amelia Jiménez-Sánchez
-  - name: Dovile Juodelyte 
-  - name: Caroline Petitjean
-  - name: Veronika Cheplygina
+  - name: Syed Nouman Hasany 
+    url: https://www.linkedin.com/in/syed-nouman-hasany-b4648b100
+  - name: Fabrice Mériaudeau 
+    url: https://fr.linkedin.com/in/fabrice-meriaudeau-1aa2711a
+  - name: Caroline Petitjean 
+    url: https://fr.linkedin.com/in/caroline-petitjean-2922a42
   paper:
-    summary: "Medical imaging papers often focus on methodology, but the quality of the algorithms and the validity of the conclusions are highly dependent on the datasets used. As creating datasets requires a lot of effort, researchers often use publicly available datasets, there is however no adopted standard for citing the datasets used in scientific papers, leading to difficulty in tracking dataset usage. In this work, we present two open-source tools we created that could help with the detection of dataset usage, a pipeline using OpenAlex and full-text analysis, and a PDF annotation software used in our study to manually label the presence of datasets. We applied both tools on a study of the usage of 20 publicly available medical datasets in papers from MICCAI and MIDL. We compute the proportion and the evolution between 2013 and 2023 of 3 types of presence in a paper: cited, mentioned in the full text, cited and mentioned. Our findings demonstrate the concentration of the usage of a limited set of datasets. We also highlight different citing practices, making the automation of tracking difficult."
-    url: https://arxiv.org/abs/2402.03003
+    summary: The U-Net model, introduced in 2015, is established as the state-of-the-art architecture for medical image segmentation, along with its variants UNet++, nnU-Net, V-Net, etc. Vision transformers made a breakthrough in the computer vision world in 2021. Since then, many transformer based architectures or hybrid architectures (combining convolutional blocks and transformer blocks) have been proposed for image segmentation, that are challenging the predominance of U-Net. In this paper, we ask the question whether transformers could overtake U-Net for medical image segmentation. We compare SegFormer, one of the most popular transformer architectures for segmentation, to U-Net using three publicly available medical image datasets that include various modalities and organs with the segmentation of cardiac structures in ultrasound images from the CAMUS challenge, the segmentation of polyp in endoscopy images and the segmentation of instrument in colonoscopy images from the MedAI challenge. We compare them in the light of various metrics (segmentation performance, training time) and show that SegFormer can be a true competitor to U-Net and should be carefully considered for future tasks in medical image segmentation. 
+    url: https://hal.science/hal-04161509/
   categories: ["machinelearning","medical"]
-  tags: ["Bibliometrics", "Datasets", "Medical Imaging", "Meta-analysis","Open-Access tools"]
+  tags: ["Segmentation", "CNN", "Transformer"]
+
+

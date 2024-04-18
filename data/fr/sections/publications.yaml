@@ -9,6 +9,46 @@ section:
   # hideTitle: true
 
 publications:
+- title: "[Citation needed] Data usage and citation practices in medical imaging conferences"
+  publishedIn:
+    name: Medical Imaging with Deep Learning 2024 (MIDL'24)
+    date: July 2024
+    url: https://2024.midl.io/
+  authors:
+  - name: Théo Sourget
+    url: https://tsourget.fr
+  - name: Ahmet Akkoç 
+  - name: Stinna Winther
+  - name: Christine Lyngbye Galsgaard
+  - name: Amelia Jiménez-Sánchez
+  - name: Dovile Juodelyte 
+  - name: Caroline Petitjean
+  - name: Veronika Cheplygina
+  paper:
+    summary: "Medical imaging papers often focus on methodology, but the quality of the algorithms and the validity of the conclusions are highly dependent on the datasets used. As creating datasets requires a lot of effort, researchers often use publicly available datasets, there is however no adopted standard for citing the datasets used in scientific papers, leading to difficulty in tracking dataset usage. In this work, we present two open-source tools we created that could help with the detection of dataset usage, a pipeline using OpenAlex and full-text analysis, and a PDF annotation software used in our study to manually label the presence of datasets. We applied both tools on a study of the usage of 20 publicly available medical datasets in papers from MICCAI and MIDL. We compute the proportion and the evolution between 2013 and 2023 of 3 types of presence in a paper: cited, mentioned in the full text, cited and mentioned. Our findings demonstrate the concentration of the usage of a limited set of datasets. We also highlight different citing practices, making the automation of tracking difficult."
+    url: https://arxiv.org/abs/2402.03003
+  categories: ["machinelearning","medical"]
+  tags: ["Bibliometrics", "Datasets", "Medical Imaging", "Meta-analysis","Open-Access tools"]
+
+- title: "Detection Transformer for Teeth Detection, Segmentation, and Numbering in Oral Rare Diseases: Focus on Data Augmentation and Inpainting Techniques"
+  publishedIn:
+    name: The 2023 International Conference on Computational Science & Computational Intelligence (CSCI'23)
+    date: December 2023
+    url: https://american-cse.org/index.html/
+  authors:
+  - name: Kadi Hocine 
+  - name: Théo Sourget
+    url: https://tsourget.fr
+  - name: Kawczynski Marzena 
+  - name: Bendjama Sara
+  - name: Grollemund Bruno
+  - name: Bloch-Zupan Agnès 
+  paper:
+    summary: In this work, we focused on deep learning image processing in the context of oral rare diseases, which pose challenges due to limited data availability. A crucial step involves teeth detection, segmentation and numbering in panoramic radiographs. To this end, we used a dataset consisting of 156 panoramic radiographs from individuals with rare oral diseases and labeled by experts. We trained the Detection Transformer (DETR) neural network for teeth detection, segmentation, and numbering the 52 teeth classes. In addition, we used data augmentation techniques, including geometric transformations. Finally, we generated new panoramic images using inpainting techniques with stable diffusion, by removing teeth from a panoramic radiograph and integrating teeth into it. The results showed a mAP exceeding 0,69 for DETR without data augmentation. The mAP was improved to 0,82 when data augmentation techniques are used. Furthermore, we observed promising performances when using new panoramic radiographs generated with inpainting technique, with mAP of 0,76. 
+    url: https://arxiv.org/abs/2402.04408
+  categories: ["machinelearning","medical"]
+  tags: ["Instance Segmentation", "Data Generation", "Transformer"]
+
 - title: Can SegFormer be a True Competitor to U-Net for Medical Image Segmentation?
   publishedIn:
     name: 27th Conference on Medical Image Understanding and Analysis (MIUA)
