@@ -20,6 +20,7 @@ experiences:
   positions:
   - designation: Research Assistant
     start: October 2023
+    end: Dec 2024
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
@@ -29,9 +30,10 @@ experiences:
 
   - designation: Assistant Lecturer
     start: January 2024
+    end: July 2024
     responsibilities:
-    - Prepare and teach lectures
-    - Prepare exercises sessions 
+    - Prepared and teach lectures to bachelor's students of the Project in Data Science course (Git, decision trees, ensemble of classifiers, common problems in machine learning projects)
+    - Prepared exercises sessions 
   
   - designation: Teaching Assistant
     start: October 2023
@@ -39,7 +41,8 @@ experiences:
     end: Dec 2023
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Help students during practical work 
+    - Helped students during practical work of the Data In the Wild Course (data processing, visualisation, web scraping)
+    - Assisted teachers in the preparation of the exercises
 
 - company:
     name: Capgemini Engineering - Medic@
