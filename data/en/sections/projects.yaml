@@ -21,6 +21,14 @@ buttons:
 
 # your projects
 projects:
+- name: Mask of truth
+  timeline: "2024"
+  repo: https://github.com/TheoSourget/MMC_Masking # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Pipeline to study the ability of a CNN model to classify images without the region of interest in medical images and evaluate potential bias/shortcuts in datasets
+  tags: ["Medical Image Analysis","Shortcut learning","CNN"]
+
+projects:
 - name: Citation needed
   timeline: "2024"
   repo: https://github.com/TheoSourget/Public_Medical_Datasets_References # If your project is a public repo on GitHub, then provide this link. it will show star count.
