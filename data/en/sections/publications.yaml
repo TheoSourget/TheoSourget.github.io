@@ -19,6 +19,26 @@ section:
 
 # your publications
 publications:
+- title: "Copycats: the many lives of a publicly available medical imaging dataset"
+  publishedIn:
+    name: NeurIPS 2024 Datasets and Benchmarks Track 
+    date: December 2024
+    url: https://neurips.cc/
+  authors:
+  - name: Amelia Jiménez-Sánchez
+  - name: Natalia-Rozalia Avlona 
+  - name: Dovile Juodelyte
+  - name: Théo Sourget
+  - name: Caroline Vang-Larsen
+  - name: Anna Rogers 
+  - name: Hubert Dariusz Zajac
+  - name: Veronika Cheplygina 
+  paper:
+    summary: "Medical Imaging (MI) datasets are fundamental to artificial intelligence in healthcare. The accuracy, robustness, and fairness of diagnostic algorithms depend on the data (and its quality) used to train and evaluate the models. MI datasets used to be proprietary, but have become increasingly available to the public, including on community-contributed platforms (CCPs) like Kaggle or HuggingFace. While open data is important to enhance the redistribution of data's public value, we find that the current CCP governance model fails to uphold the quality needed and recommended practices for sharing, documenting, and evaluating datasets. In this paper, we conduct an analysis of publicly available machine learning datasets on CCPs, discussing datasets' context, and identifying limitations and gaps in the current CCP landscape. We highlight differences between MI and computer vision datasets, particularly in the potentially harmful downstream effects from poor adoption of recommended dataset management practices. We compare the analyzed datasets across several dimensions, including data sharing, data documentation, and maintenance. We find vague licenses, lack of persistent identifiers and storage, duplicates, and missing metadata, with differences between the platforms. Our research contributes to efforts in responsible data curation and AI algorithms for healthcare."
+    url: https://arxiv.org/abs/2402.06353
+  categories: ["machinelearning","medical"]
+  tags: ["Open Data", "Medical Imaging", "Datasets", "Dataset Management","Data Governance"]
+
 - title: "[Citation needed] Data usage and citation practices in medical imaging conferences"
   publishedIn:
     name: Medical Imaging with Deep Learning 2024 (MIDL'24)
