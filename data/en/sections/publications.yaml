@@ -19,6 +19,22 @@ section:
 
 # your publications
 publications:
+- title: "Mask of truth: model sensitivity to unexpected regions of medical images"
+  publishedIn:
+    name: Under Review 
+    date: December 2024
+  authors:
+  - name: Théo Sourget
+  - name: Michelle Hestbek-Møller 
+  - name: Amelia Jiménez-Sánchez
+  - name: Jack Junchi Xu
+  - name: Veronika Cheplygina 
+  paper:
+    summary: "The development of larger models for medical image analysis has led to increased performance. However, it also affected our ability to explain and validate model decisions. Models can use non-relevant parts of images, also called spurious correlations or shortcuts, to obtain high performance on benchmark datasets but fail in real-world scenarios. In this work, we challenge the capacity of convolutional neural networks (CNN) to classify chest X-rays and eye fundus images while masking out clinically relevant parts of the image. We show that all models trained on the PadChest dataset, irrespective of the masking strategy, are able to obtain an Area Under the Curve (AUC) above random. Moreover, the models trained on full images obtain good performance on images without the region of interest (ROI), even superior to the one obtained on images only containing the ROI. We also reveal a possible spurious correlation in the Chaksu dataset while the performances are more aligned with the expectation of an unbiased model. We go beyond the performance analysis with the usage of the explainability method SHAP and the analysis of embeddings. We asked a radiology resident to interpret chest X-rays under different masking to complement our findings with clinical knowledge."
+    url: https://arxiv.org/abs/2412.04030
+  categories: ["machinelearning","medical"]
+  tags: ["Shortcut learning", "Model robustness", "Datasets", "Chest X-ray classification","Glaucoma classification"]
+
 - title: "Copycats: the many lives of a publicly available medical imaging dataset"
   publishedIn:
     name: NeurIPS 2024 Datasets and Benchmarks Track 
