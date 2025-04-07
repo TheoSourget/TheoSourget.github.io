@@ -11,6 +11,17 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: CentraleSupélec - MICS
+    url: "https://mics.centralesupelec.fr/"
+    location: Gif-sur-Yvette (France)
+  positions:
+  - designation: Research Engineer
+    start: April 2025
+    end: Current
+    responsibilities:
+    - I study biases in Vision-Language model
+
+- company:
     name: IT University of Copenhagen - PURRlab
     url: "https://purrlab.github.io/"
     location: Copenhagen (Denmark)
