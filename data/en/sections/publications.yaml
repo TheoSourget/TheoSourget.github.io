@@ -26,6 +26,7 @@ publications:
     url: https://facctconference.org/2025/
   authors:
   - name: Amelia Jiménez-Sánchez
+    url: https://ameliajimenez.github.io/
   - name: Natalia-Rozalia Avlona
   - name: Sarah de Boer 
   - name: Víctor M. Campello
@@ -39,6 +40,7 @@ publications:
   - name: Adam Hulman 
   - name: Leo Joskowicz
   - name: Dovile Juodelyte
+    url: https://dk.linkedin.com/in/djuodelyte
   - name: Melih Kandemir
   - name: Thijs Kooi
   - name: Jorge del Pozo Lérida 
@@ -47,13 +49,16 @@ publications:
   - name: Tim Rädsch
   - name: Mauricio Reyes
   - name: Théo Sourget
+    url: https://tsourget.fr
   - name: Bram van Ginneken
   - name: David Wen 
   - name: Nina Weng
-  - name: Jack Junchi Xu 
+  - name: Jack Junchi Xu
+    url: https://dk.linkedin.com/in/jack-junchi-xu-106909104 
   - name: Hubert Dariusz Zając
   - name: Maria A. Zuluaga  
-  - name: Veronika Cheplygina 
+  - name: Veronika Cheplygina
+    url: https://veronikach.com/ 
   paper:
     summary: "Datasets play a critical role in medical imaging research, yet issues such as label quality, shortcuts, and metadata are often overlooked. This lack of attention may harm the generalizability of algorithms and, consequently, negatively impact patient outcomes. While existing medical imaging literature reviews mostly focus on machine learning (ML) methods, with only a few focusing on datasets for specific applications, these reviews remain static – they are published once and not updated thereafter. This fails to account for emerging evidence, such as biases, shortcuts, and additional annotations that other researchers may contribute after the dataset is published. We refer to these newly discovered findings of datasets as research artifacts. To address this gap, we propose a living review that continuously tracks public datasets and their associated research artifacts across multiple medical imaging applications. Our approach includes a framework for the living review to monitor data documentation artifacts, and an SQL database to visualize the citation relationships between research artifact and dataset. Lastly, we discuss key considerations for creating medical imaging datasets, review best practices for data annotation, discuss the significance of shortcuts and demographic diversity, and emphasize the importance of managing datasets throughout their entire lifecycle. Our demo is publicly available at http://inthepicture.itu.dk/."
     url: https://dl.acm.org/doi/10.1145/3715275.3732035
@@ -69,8 +74,11 @@ publications:
   - name: Théo Sourget
   - name: Michelle Hestbek-Møller 
   - name: Amelia Jiménez-Sánchez
+    url: https://ameliajimenez.github.io/
   - name: Jack Junchi Xu
-  - name: Veronika Cheplygina 
+    url: https://dk.linkedin.com/in/jack-junchi-xu-106909104
+  - name: Veronika Cheplygina
+    url: https://veronikach.com/ 
   paper:
     summary: "The development of larger models for medical image analysis has led to increased performance. However, it also affected our ability to explain and validate model decisions. Models can use non-relevant parts of images, also called spurious correlations or shortcuts, to obtain high performance on benchmark datasets but fail in real-world scenarios. In this work, we challenge the capacity of convolutional neural networks (CNN) to classify chest X-rays and eye fundus images while masking out clinically relevant parts of the image. We show that all models trained on the PadChest dataset, irrespective of the masking strategy, are able to obtain an Area Under the Curve (AUC) above random. Moreover, the models trained on full images obtain good performance on images without the region of interest (ROI), even superior to the one obtained on images only containing the ROI. We also reveal a possible spurious correlation in the Chaksu dataset while the performances are more aligned with the expectation of an unbiased model. We go beyond the performance analysis with the usage of the explainability method SHAP and the analysis of embeddings. We asked a radiology resident to interpret chest X-rays under different masking to complement our findings with clinical knowledge."
     url: https://link.springer.com/article/10.1007/s10278-025-01531-5
@@ -84,13 +92,17 @@ publications:
     url: https://neurips.cc/
   authors:
   - name: Amelia Jiménez-Sánchez
+    url: https://ameliajimenez.github.io/
   - name: Natalia-Rozalia Avlona 
   - name: Dovile Juodelyte
+    url: https://dk.linkedin.com/in/djuodelyte
   - name: Théo Sourget
+    url: https://tsourget.fr
   - name: Caroline Vang-Larsen
   - name: Anna Rogers 
   - name: Hubert Dariusz Zajac
-  - name: Veronika Cheplygina 
+  - name: Veronika Cheplygina
+    url: https://veronikach.com/
   paper:
     summary: "Medical Imaging (MI) datasets are fundamental to artificial intelligence in healthcare. The accuracy, robustness, and fairness of diagnostic algorithms depend on the data (and its quality) used to train and evaluate the models. MI datasets used to be proprietary, but have become increasingly available to the public, including on community-contributed platforms (CCPs) like Kaggle or HuggingFace. While open data is important to enhance the redistribution of data's public value, we find that the current CCP governance model fails to uphold the quality needed and recommended practices for sharing, documenting, and evaluating datasets. In this paper, we conduct an analysis of publicly available machine learning datasets on CCPs, discussing datasets' context, and identifying limitations and gaps in the current CCP landscape. We highlight differences between MI and computer vision datasets, particularly in the potentially harmful downstream effects from poor adoption of recommended dataset management practices. We compare the analyzed datasets across several dimensions, including data sharing, data documentation, and maintenance. We find vague licenses, lack of persistent identifiers and storage, duplicates, and missing metadata, with differences between the platforms. Our research contributes to efforts in responsible data curation and AI algorithms for healthcare."
     url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/cdbeaeb8a0313940a5752c4ec8838ca6-Abstract-Datasets_and_Benchmarks_Track.html
@@ -109,9 +121,13 @@ publications:
   - name: Stinna Winther
   - name: Christine Lyngbye Galsgaard
   - name: Amelia Jiménez-Sánchez
-  - name: Dovile Juodelyte 
+    url: https://ameliajimenez.github.io/
+  - name: Dovile Juodelyte
+    url: https://dk.linkedin.com/in/djuodelyte
   - name: Caroline Petitjean
+    url: https://fr.linkedin.com/in/caroline-petitjean-2922a42
   - name: Veronika Cheplygina
+    url: https://veronikach.com/
   paper:
     summary: "Medical imaging papers often focus on methodology, but the quality of the algorithms and the validity of the conclusions are highly dependent on the datasets used. As creating datasets requires a lot of effort, researchers often use publicly available datasets, there is however no adopted standard for citing the datasets used in scientific papers, leading to difficulty in tracking dataset usage. In this work, we present two open-source tools we created that could help with the detection of dataset usage, a pipeline using OpenAlex and full-text analysis, and a PDF annotation software used in our study to manually label the presence of datasets. We applied both tools on a study of the usage of 20 publicly available medical datasets in papers from MICCAI and MIDL. We compute the proportion and the evolution between 2013 and 2023 of 3 types of presence in a paper: cited, mentioned in the full text, cited and mentioned. Our findings demonstrate the concentration of the usage of a limited set of datasets. We also highlight different citing practices, making the automation of tracking difficult."
     url: https://openreview.net/forum?id=gFIepubv7E
