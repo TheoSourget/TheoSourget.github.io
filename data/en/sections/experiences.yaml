@@ -36,14 +36,14 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Study the usage of non-relevant information (e.g. background) in chest X-ray images by CNN models
+    - Evaluated the usage of non-relevant information (e.g. background) in chest X-ray images by CNN models
     - Studied how public medical image datasets are referenced in research papers 
 
   - designation: Assistant Lecturer
     start: January 2024
     end: July 2024
     responsibilities:
-    - Prepared and teach lectures to bachelor's students of the Project in Data Science course (Git, decision trees, ensemble of classifiers, common problems in machine learning projects)
+    - Prepared and taught lectures to bachelor's students of the Project in Data Science course (Git, decision trees, ensemble of classifiers, common problems in machine learning projects)
     - Prepared exercises sessions 
   
   - designation: Teaching Assistant
