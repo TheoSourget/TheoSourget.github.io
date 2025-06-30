@@ -10,7 +10,7 @@ module:
   mounts:
   - source: static/files
     target: static/files
-  - source: ./node_modules/flag-icon-css/flags
+  - source: ./node_modules/flag-icons/flags
     target: static/flags
   - source: ./node_modules/@fontsource/mulish/files
     target: static/files
@@ -21,14 +21,14 @@ module:
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
   en:
+    languageCode: en
     languageName: English
+    title: "Theo Sourget"
     weight: 1
   fr:
     languageName: Français
     weight: 3
 
-# Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
-# DefaultContentLanguage: bn
 
 # Allow raw html in markdown file
 markup:
@@ -55,6 +55,8 @@ enableEmoji: true
 params:
   # Background image of the landing page
   background: /images/site/background.jpg
+  # Background image of the landing page for dark theme
+  #darkBackground: /images/site/background.jpg
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
@@ -74,19 +76,19 @@ params:
 
   # Configure various features of this theme
   features:
+    # [Deprecated] Enable dark theme
+    # This is a deprecated setting, but has not been removed to maintain backward compatibility
+    # If `theme` is set, the `darkMode` setting will be discarded.
+    # darkMode:
+    #   enable: true
 
-    # Enable dark theme
-    darkMode:
+    # Configure theme color settings
+    theme:
       enable: true
       services:
-        darkreader:
-          defaultColorScheme: system # options are 'system', 'dark', 'light'
-          fixes:
-            invert: ['img[src$=".svg"]'] # inverts svg colors.
-          theme:
-            brightness: 100
-            contrast: 100
-            sepia: 0
+        light: true # enable light theme. default "true"
+        dark: true # enable dark theme. default "true"
+        default: system # can be either light, dark or system. default "system"
 
     # Enable and configure portfolio
     portfolio:
@@ -95,6 +97,7 @@ params:
     # Enable and configure blog posts
     blog:
       enable: true
+      showAuthor: true # shows the author of post (defaults true)
       # Share post on different social media
       shareButtons:
         facebook: true
@@ -198,16 +201,16 @@ params:
 
     # Enable this to use `embed-pdf` shortcode.
     embedpdf:
-      enable: false
+      enable: true
 
     # Enable this to create flowcharts using shortcodes.
     flowchart:
-      enable: false
+      enable: true
       services:
         # Uncomment for `mermaid` shortcode.
         mermaid:
           # For config options, see: https://mermaid-js.github.io/mermaid/#/Setup?id=configuration
-          # theme: dark
+          theme: forest
 
     # Enable this to create mathematic expressions using `$$` blocks
     math:
@@ -259,9 +262,17 @@ params:
           # options doc: https://github.com/sampotts/plyr#options
           # fullscreen: true
     
-        # Enable reading time support in post cards and in post pages
+    # Enables copy code button
+    copyCodeButton:
+      enable: true
+
+    # Enable reading time support in post cards and in post pages
     readingTime:
       enable: false
+    
+    # Number of posts to show to each page. Default is "12"
+    pagination:
+       maxPostsPerPage: 12
 
 
   # Provide footer configuration.
@@ -286,8 +297,8 @@ params:
     # Currently, it supports "mailchimp".
     newsletter:
       enable: false
-      provider: mailchimp
-      mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
+      # provider: mailchimp
+      # mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
 
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
