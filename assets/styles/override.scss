@@ -1,0 +1,5 @@
+html[data-theme='dark'] {
+    .authors {
+        color: get-dark-color('text-color')
+    }
+}
