@@ -28,58 +28,35 @@ publications:
   - name: Amelia Jiménez-Sánchez
     url: https://ameliajimenez.github.io/
   - name: Natalia-Rozalia Avlona
-  - name: Sarah de Boer
-    url: javascript:; 
-  - name: Víctor M. Campello
-    url: javascript:;
-  - name: Aasa Feragen
-    url: javascript:; 
-  - name: Enzo Ferrante
-    url: javascript:;
-  - name: Melanie Ganz
-    url: javascript:;
-  - name: Judy Wawira Gichoya
-    url: javascript:;
-  - name: Camila González
-    url: javascript:;
-  - name: Steff Groefsema
-    url: javascript:; 
-  - name: Alessa Hering
-    url: javascript:;
-  - name: Adam Hulman
-    url: javascript:; 
-  - name: Leo Joskowicz
-    url: javascript:;
+  - name: Sarah de Boer   
+  - name: Víctor M. Campello    
+  - name: Aasa Feragen     
+  - name: Enzo Ferrante    
+  - name: Melanie Ganz    
+  - name: Judy Wawira Gichoya    
+  - name: Camila González    
+  - name: Steff Groefsema     
+  - name: Alessa Hering    
+  - name: Adam Hulman     
+  - name: Leo Joskowicz    
   - name: Dovile Juodelyte
     url: https://dk.linkedin.com/in/djuodelyte
-  - name: Melih Kandemir
-    url: javascript:;
-  - name: Thijs Kooi
-    url: javascript:;
-  - name: Jorge del Pozo Lérida
-    url: javascript:; 
-  - name: Livie Yumeng Li
-    url: javascript:;
-  - name: Andre Pacheco
-    url: javascript:; 
-  - name: Tim Rädsch
-    url: javascript:;
-  - name: Mauricio Reyes
-    url: javascript:;
+  - name: Melih Kandemir    
+  - name: Thijs Kooi    
+  - name: Jorge del Pozo Lérida     
+  - name: Livie Yumeng Li    
+  - name: Andre Pacheco     
+  - name: Tim Rädsch    
+  - name: Mauricio Reyes    
   - name: Théo Sourget
     url: https://tsourget.fr
-  - name: Bram van Ginneken
-    url: javascript:;
-  - name: David Wen
-    url: javascript:; 
-  - name: Nina Weng
-    url: javascript:;
+  - name: Bram van Ginneken    
+  - name: David Wen     
+  - name: Nina Weng    
   - name: Jack Junchi Xu
     url: https://dk.linkedin.com/in/jack-junchi-xu-106909104 
-  - name: Hubert Dariusz Zając
-    url: javascript:;
-  - name: Maria A. Zuluaga
-    url: javascript:;  
+  - name: Hubert Dariusz Zając    
+  - name: Maria A. Zuluaga      
   - name: Veronika Cheplygina
     url: https://veronikach.com/ 
   paper:
@@ -96,8 +73,7 @@ publications:
   authors:
   - name: Théo Sourget
     url: https://tsourget.fr
-  - name: Michelle Hestbek-Møller
-    url: javascript:; 
+  - name: Michelle Hestbek-Møller     
   - name: Amelia Jiménez-Sánchez
     url: https://ameliajimenez.github.io/
   - name: Jack Junchi Xu
@@ -118,18 +94,14 @@ publications:
   authors:
   - name: Amelia Jiménez-Sánchez
     url: https://ameliajimenez.github.io/
-  - name: Natalia-Rozalia Avlona
-    url: javascript:; 
+  - name: Natalia-Rozalia Avlona     
   - name: Dovile Juodelyte
     url: https://dk.linkedin.com/in/djuodelyte
   - name: Théo Sourget
     url: https://tsourget.fr
-  - name: Caroline Vang-Larsen
-    url: javascript:;
-  - name: Anna Rogers
-    url: javascript:; 
-  - name: Hubert Dariusz Zajac
-    url: javascript:;
+  - name: Caroline Vang-Larsen    
+  - name: Anna Rogers     
+  - name: Hubert Dariusz Zajac    
   - name: Veronika Cheplygina
     url: https://veronikach.com/
   paper:
@@ -146,12 +118,9 @@ publications:
   authors:
   - name: Théo Sourget
     url: https://tsourget.fr
-  - name: Ahmet Akkoç
-    url: javascript:; 
-  - name: Stinna Winther
-    url: javascript:;
-  - name: Christine Lyngbye Galsgaard
-    url: javascript:;
+  - name: Ahmet Akkoç     
+  - name: Stinna Winther    
+  - name: Christine Lyngbye Galsgaard    
   - name: Amelia Jiménez-Sánchez
     url: https://ameliajimenez.github.io/
   - name: Dovile Juodelyte
@@ -176,14 +145,11 @@ publications:
     url: https://fr.linkedin.com/in/hocine-kadi
   - name: Théo Sourget
     url: https://tsourget.fr
-  - name: Kawczynski Marzena
-    url: javascript:; 
-  - name: Bendjama Sara
-    url: javascript:;
-  - name: Grollemund Bruno
-    url: javascript:;
+  - name: Kawczynski Marzena     
+  - name: Bendjama Sara    
+  - name: Grollemund Bruno    
   - name: Bloch-Zupan Agnès
-    url: javascript:; 
+     
   paper:
     summary: In this work, we focused on deep learning image processing in the context of oral rare diseases, which pose challenges due to limited data availability. A crucial step involves teeth detection, segmentation and numbering in panoramic radiographs. To this end, we used a dataset consisting of 156 panoramic radiographs from individuals with rare oral diseases and labeled by experts. We trained the Detection Transformer (DETR) neural network for teeth detection, segmentation, and numbering the 52 teeth classes. In addition, we used data augmentation techniques, including geometric transformations. Finally, we generated new panoramic images using inpainting techniques with stable diffusion, by removing teeth from a panoramic radiograph and integrating teeth into it. The results showed a mAP exceeding 0,69 for DETR without data augmentation. The mAP was improved to 0,82 when data augmentation techniques are used. Furthermore, we observed promising performances when using new panoramic radiographs generated with inpainting technique, with mAP of 0,76. 
     url: https://arxiv.org/abs/2402.04408
