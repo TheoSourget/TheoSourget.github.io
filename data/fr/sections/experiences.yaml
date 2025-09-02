@@ -11,15 +11,28 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: IT University of Copenhagen - PURRlab
+    url: "https://purrlab.github.io/"
+    location: Copenhagen (Denmark)
+  positions:
+  - designation: PhD Student
+    start: September 2025
+    end: Current
+    responsibilities:
+    - Study data quality and the evaluation of machine learning algorithms
+    - "Part of the project CHEETAH: CHallenges of Evaluating Teams and Algorithms"
+    - Supervised by Veronika Cheplygina
+
+- company:
     name: CentraleSupélec - MICS
     url: "https://mics.centralesupelec.fr/"
     location: Gif-sur-Yvette (France)
   positions:
   - designation: Research Engineer
     start: April 2025
-    end: Current
+    end: September 2025
     responsibilities:
-    - I study biases in Vision-Language model
+    - I studied biases in Vision-Language model
 
 - company:
     name: IT University of Copenhagen - PURRlab
