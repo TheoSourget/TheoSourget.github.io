@@ -8,11 +8,11 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Ingénieur d'étude
+designation: Doctorant
 # your company information
 company:
-  name: CentraleSupélec - MICS.
-  url: "https://mics.centralesupelec.fr/"
+  name: PURRlab - IT University of Copenhagen.
+  url: "https://purrlab.github.io/"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
@@ -21,7 +21,9 @@ company:
 # a summary about you
 summary: "Passionné par la Data Science et l'IA, j'ai obtenu en 2023 mon diplôme de Master à [l'Université de Rouen](http://mastersid.univ-rouen.fr/en/index.php). 
 Durant mes études, je me suis spécialisée dans l'analyse d'images médicales avec des projets portant sur la classification et la segmentation d'images médicales à l'aide de modèles de deep learning. 
-Ces projets portaient également sur l'entraînement de modèles transformers avec des datasets de tailles limitées ainsi que sur l'effet de l'augmentation des données et du transfer learning." 
+Ces projets portaient également sur l'entraînement de modèles transformers avec des datasets de tailles limitées ainsi que sur l'effet de l'augmentation des données et du transfer learning.
+J'ai ensuite travaillé comme assistant de recherche au sein de [PURRlab à l'IT University of Copenhagen] et du laboratoire [MICS à CentraleSupélec Paris] sur la robustesse de l'IA dans le domaine de la santé et l'étude des jeux de données médicaux publics dans les articles scientifiques.
+Je suis actuellement doctorant au sein de PURRlab, où je travaille sur l'évaluation des algorithmes d'IA et la qualité des jeux de données." 
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
