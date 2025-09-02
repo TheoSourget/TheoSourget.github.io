@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Research Engineer
+designation: PhD Student
 # your company information
 company:
   name: PURRlab - IT University of Copenhagen.
