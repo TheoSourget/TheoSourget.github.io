@@ -21,7 +21,7 @@ section:
 publications:
 - title: "Fairness and Robustness of CLIP-Based Models for Chest X-rays"
   publishedIn:
-    name: MICCAI 2025 Workshop on Fairness of AI in Medical Imaging (FAIMI)
+    name: MICCAI 2025 Workshop on Fairness of AI in Medical Imaging (FAIMI), Best Poster Presentation Award
     date: July 2025
     url: https://faimi-workshop.github.io/2025-miccai-workshop/
   authors:
