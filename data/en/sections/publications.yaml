@@ -21,8 +21,8 @@ section:
 publications:
 - title: "Dataset Diversity Metrics and Impact on Classification Models"
   publishedIn:
-    name: Preprint
-    date: March 2026
+    name: Accepted for publication at ECCV 2026 International Workshop on Biomedical Image and Signal Computing for Unbiasedness, Interpretability, and Trustworthiness
+    date: September 2026
   authors:
     - name: Théo Sourget
       url: https://tsourget.fr
