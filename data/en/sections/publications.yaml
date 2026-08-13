@@ -19,6 +19,7 @@ section:
 
 # your publications
 publications:
+
 - title: "Dataset Diversity Metrics and Impact on Classification Models"
   publishedIn:
     name: Accepted for publication at ECCV 2026 International Workshop on Biomedical Image and Signal Computing for Unbiasedness, Interpretability, and Trustworthiness
@@ -40,6 +41,25 @@ publications:
   categories: ["machinelearning","medical"]
   tags: ["Dataset diversity", "Multimodal dataset", "Medical dataset", "Training dynamic", "Model robustness"]
 
+- title: "Look What the Probes Dragged In! Real-World Chest X-ray Shortcuts in MedCLIP"
+  publishedIn:
+    name: Accepted for publication at FAIMI MICCAI workshop 2026
+    date: September 2026
+  authors:
+    - name: Nikolette Pedersen
+      url: https://www.linkedin.com/in/nikolette-zoe-pedersen-93606b171/
+    - name: Regitze Sydendal
+      url: https://www.linkedin.com/in/regitze-sydendal-03b83b204/
+    - name: Veronika Cheplygina
+      url: https://veronikach.com/
+    - name: Théo Sourget
+      url: https://tsourget.fr
+  paper:
+    summary: "Vision-language models, such as contrastive language-image pre-training (CLIP)-based approaches, have reached state-of-the-art (SOTA) results in medical artificial intelligence. However, recent work reveals that CLIP-based models remain vulnerable to shortcuts. We investigate how real-world shortcuts manifest across different layers of the medical CLIP-based model, MedCLIP, and its vision encoder, a frozen ResNet-50. We attach 17 linear classification probes to the intermediate layers of the ResNet-50 and train them on three different dataset configurations and targets: NIH-CXR14 (pneumothorax) and PadChest (cardiomegaly and pneumothorax). This setup allows us to observe model behaviour during evaluation using subgroup-based calibration and layer-wise confidence curves. We find that the final linear probes achieve a high AUROC but poor calibration in the models. The layer-wise confidence analyses suggest that shortcuts emerge at different depths. Patterns consistent with localised shortcuts, such as drains, appear at later layers, while patterns consistent with diffuse shortcuts, such as scanner-specific noise patterns, emerge earlier, aligning with previous work. Finally, we conduct a manual analysis of the images, which reveals data quality issues in both NIH-CXR14 and PadChest. Our findings underscore that even SOTA models remain vulnerable to shortcuts, and the need for high-quality and well-annotated datasets to draw solid conclusions."
+    url: https://arxiv.org/abs/2608.12086
+  categories: ["machinelearning","medical"]
+  tags: ["MedCLIP", "Shortcut", "Fairness", "Chest X-ray"]
+  
 - title: "Fairness and Robustness of CLIP-Based Models for Chest X-rays"
   publishedIn:
     name: MICCAI 2025 Workshop on Fairness of AI in Medical Imaging (FAIMI), Best Poster Presentation Award
