@@ -24,10 +24,6 @@ jobs:
         run: |
           mise run update-to-main
 
-      - name: Install Dart Sass
-        run: |
-          npm install --global sass
-
       - name: Build
         run: |
           # build the site
