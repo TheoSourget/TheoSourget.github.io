@@ -19,6 +19,12 @@ jobs:
         hugo-version: '0.169.0'
         extended: true
 
+    - name: Install Dart Sass
+      run: |
+        curl -fsSL https://github.com/sass/dart-sass/releases/download/1.108.2/dart-sass-1.108.2-linux-x64.tar.gz \
+          | tar -xz -C "$RUNNER_TEMP"
+        echo "$RUNNER_TEMP/dart-sass" >> "$GITHUB_PATH"
+
     - name: Update Hugo Modules
       run: hugo mod tidy
 
