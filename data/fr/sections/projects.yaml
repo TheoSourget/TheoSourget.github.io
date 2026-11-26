@@ -9,18 +9,46 @@ section:
   # hideTitle: true
 
 # filter buttons
-buttons:
-- name: All
-  filter: "all"
-- name: Medical Image Analysis
-  filter: "Medical Image Analysis"
-- name: Sport
-  filter: "Sport"
-- name: Web
-  filter: "Web"
+# buttons:
+# - name: All
+#   filter: "all"
+# - name: Medical Image Analysis
+#   filter: "Medical Image Analysis"
+# - name: Sport
+#   filter: "Sport"
+# - name: Web
+#   filter: "Web"
 
 # your projects
 projects:
+- name: Dataset diversity evaluation
+  timeline: 2026
+  repo: https://github.com/TheoSourget/dataset_diversity_evaluation
+  summary: Compare multiple diversity metrics across modalities (image, text, and metadata) and the impact of diversity on classification model training and performance.
+  tags: ["Medical Image Analysis","Data","Diversity"]
+
+
+- name: Mask of truth
+  timeline: "2024"
+  repo: https://github.com/TheoSourget/MMC_Masking # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Pipeline to study the ability of a CNN model to classify images without the region of interest in medical images and evaluate potential bias/shortcuts in datasets
+  tags: ["Medical Image Analysis","Shortcut learning","CNN"]
+
+- name: Citation needed
+  timeline: "2024"
+  repo: https://github.com/TheoSourget/Public_Medical_Datasets_References # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Pipeline to detect dataset presence in research papers
+  tags: ["Dataset Tracking","API","Scraping"]
+
+- name: PDF Annotator
+  timeline: "2024"
+  repo: https://github.com/TheoSourget/pdf_annotator # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Web APP to annotate PDF File. The files can be annotate by multiple users for up to two initial sets of labels.
+  tags: ["Web", "PDF", "Streamlit","Annotation Tool","Docker"]
+
 - name: Citation finder
   timeline: "2023"
   repo: https://github.com/TheoSourget/citation_finder # If your project is a public repo on GitHub, then provide this link. it will show star count.
@@ -28,30 +56,30 @@ projects:
   summary: Website multiple API such as OpenAlex to search for papers referencing another one and papers matching keywords and concept.
   tags: ["Web", "API", "Streamlit","FastAPI","Docker"]
 
-- name: Research project Master 2
+- name: Comparaison of UNet and SegFormer for medical image segmentation (Master 2 project)
   timeline: "2022 - 2023"
   repo: https://github.com/TheoSourget/SegFormer_CAMUS # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Comparison of Segformer and U-Net to perform semantic segmentation on the CAMUS dataset (cardiac ultrasound images).
   tags: ["Medical Image Analysis", "Segmentation", "Transformer","Pytorch"]
 
-- name: Research project Master 1
-  timeline: "2021 - 2022"
-  summary: Classification of eye fundus images for glaucoma detection with convolutional neural network.
-  tags: ["Medical Image Analysis", "Classification","Tensorflow","CNN"]
+# - name: Glaucoma Detection with CNN (Master 1 project)
+#   timeline: "2021 - 2022"
+#   summary: Classification of eye fundus images for glaucoma detection with convolutional neural network.
+#   tags: ["Medical Image Analysis", "Classification","Tensorflow","CNN"]
 
-- name: Bachelor's degree project
-  timeline: "2020 - 2021"
-  summary: Analysis of a dataset on the 2011-2012 season of the Premier League.
-  tags: ["Data Analysis","Sport","Matplotlib","Pandas"]
+# - name: Bachelor's degree project
+#   timeline: "2020 - 2021"
+#   summary: Analysis of a dataset on the 2011-2012 season of the Premier League.
+#   tags: ["Data Analysis","Sport","Matplotlib","Pandas"]
 
-- name: Astronomical observation website
-  timeline: "2020"
-  #url: ""
-  summary: Development of an astronomical observation website with React-Flask-MongoDB.
-  tags: ["Web", "React","Flask","MongoDB"]
+# - name: Astronomical observation website
+#   timeline: "2020"
+#   #url: ""
+#   summary: Development of an astronomical observation website with React-Flask-MongoDB.
+#   tags: ["Web", "React","Flask","MongoDB"]
 
-- name: Applicharge
-  timeline: "2019-2020 "
-  summary: Development of a website and a mobile application for sports management with React/React Native.
-  tags: ["Web","Mobile","Sport","React","MERN stack"]
+# - name: Applicharge
+#   timeline: "2019-2020 "
+#   summary: Development of a website and a mobile application for sports management with React/React Native.
+#   tags: ["Web","Mobile","Sport","React","MERN stack"]

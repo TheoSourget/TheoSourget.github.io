@@ -20,8 +20,9 @@ experiences:
     end: Current
     responsibilities:
     - Study data quality and the evaluation of machine learning algorithms
-    - "Part of the project CHEETAH: CHallenges of Evaluating Teams and Algorithms"
-    - Supervised by Veronika Cheplygina
+    - Benchmark medical AI models performance at global, subgroup, and patient levels
+    - Investigated data diversity metrics for multimodal data and the impact of diversity on classification models
+    - "Part of the CHEETAH project: CHallenges of Evaluating Teams and Algorithms, Supervised by Veronika Cheplygina"
 
 - company:
     name: CentraleSupélec - MICS
@@ -32,7 +33,8 @@ experiences:
     start: April 2025
     end: September 2025
     responsibilities:
-    - I studied biases in Vision-Language model
+    - Evaluated CLIP-based models on the classification of chest X-rays
+    - Assessed their fairness across subgroups of patients, their robustness to shortcut learning, and their calibration
 
 - company:
     name: IT University of Copenhagen - PURRlab
@@ -44,19 +46,29 @@ experiences:
   positions:
   - designation: Research Assistant
     start: October 2023
+    end: January 2025
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Study how public medical image datasets are referenced in research papers 
+    - Evaluated the usage of non-relevant information (e.g. background) in chest X-ray images by CNN models
+    - Studied how public medical image datasets are referenced in research papers 
 
+  - designation: Assistant Lecturer
+    start: January 2024
+    end: July 2024
+    responsibilities:
+    - Prepared and taught lectures to bachelor's students of the Project in Data Science course (Git, decision trees, ensemble of classifiers, common problems in machine learning projects)
+    - Prepared exercises sessions 
+  
   - designation: Teaching Assistant
     start: October 2023
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
+    end: Dec 2023
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Help students during practical work 
+    - Helped students during practical work of the Data In the Wild Course (data processing, visualisation, web scraping)
+    - Assisted teachers in the preparation of the exercises
 
 - company:
     name: Capgemini Engineering - Medic@
@@ -90,5 +102,6 @@ experiences:
     - Development of a storage-related data analysis website with Python and Streamlit
     - Deployement with Docker
     - Presentation of the tool to the team
+
 
 

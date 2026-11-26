@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Publications
+  name: Selected Publications
   id: publications
   enable: true
   weight: 4
@@ -200,26 +200,25 @@ publications:
   categories: ["machinelearning","medical"]
   tags: ["Bibliometrics", "Datasets", "Medical Imaging", "Meta-analysis","Open-Access tools"]
 
-- title: "Detection Transformer for Teeth Detection, Segmentation, and Numbering in Oral Rare Diseases: Focus on Data Augmentation and Inpainting Techniques"
-  publishedIn:
-    name: The 2023 International Conference on Computational Science & Computational Intelligence (CSCI'23)
-    date: December 2023
-    url: https://american-cse.org/index.html/
-  authors:
-  - name: Kadi Hocine
-    url: https://fr.linkedin.com/in/hocine-kadi
-  - name: Théo Sourget
-    url: https://tsourget.fr
-  - name: Kawczynski Marzena     
-  - name: Bendjama Sara    
-  - name: Grollemund Bruno    
-  - name: Bloch-Zupan Agnès
-     
-  paper:
-    summary: In this work, we focused on deep learning image processing in the context of oral rare diseases, which pose challenges due to limited data availability. A crucial step involves teeth detection, segmentation and numbering in panoramic radiographs. To this end, we used a dataset consisting of 156 panoramic radiographs from individuals with rare oral diseases and labeled by experts. We trained the Detection Transformer (DETR) neural network for teeth detection, segmentation, and numbering the 52 teeth classes. In addition, we used data augmentation techniques, including geometric transformations. Finally, we generated new panoramic images using inpainting techniques with stable diffusion, by removing teeth from a panoramic radiograph and integrating teeth into it. The results showed a mAP exceeding 0,69 for DETR without data augmentation. The mAP was improved to 0,82 when data augmentation techniques are used. Furthermore, we observed promising performances when using new panoramic radiographs generated with inpainting technique, with mAP of 0,76. 
-    url: https://arxiv.org/abs/2402.04408
-  categories: ["machinelearning","medical"]
-  tags: ["Instance Segmentation", "Data Generation", "Transformer"]
+# - title: "Detection Transformer for Teeth Detection, Segmentation, and Numbering in Oral Rare Diseases: Focus on Data Augmentation and Inpainting Techniques"
+#   publishedIn:
+#     name: The 2023 International Conference on Computational Science & Computational Intelligence (CSCI'23)
+#     date: December 2023
+#     url: https://american-cse.org/index.html/
+#   authors:
+#   - name: Kadi Hocine
+#     url: https://fr.linkedin.com/in/hocine-kadi
+#   - name: Théo Sourget
+#     url: https://tsourget.fr
+#   - name: Kawczynski Marzena     
+#   - name: Bendjama Sara    
+#   - name: Grollemund Bruno    
+#   - name: Bloch-Zupan Agnès
+#   paper:
+#     summary: In this work, we focused on deep learning image processing in the context of oral rare diseases, which pose challenges due to limited data availability. A crucial step involves teeth detection, segmentation and numbering in panoramic radiographs. To this end, we used a dataset consisting of 156 panoramic radiographs from individuals with rare oral diseases and labeled by experts. We trained the Detection Transformer (DETR) neural network for teeth detection, segmentation, and numbering the 52 teeth classes. In addition, we used data augmentation techniques, including geometric transformations. Finally, we generated new panoramic images using inpainting techniques with stable diffusion, by removing teeth from a panoramic radiograph and integrating teeth into it. The results showed a mAP exceeding 0,69 for DETR without data augmentation. The mAP was improved to 0,82 when data augmentation techniques are used. Furthermore, we observed promising performances when using new panoramic radiographs generated with inpainting technique, with mAP of 0,76. 
+#     url: https://arxiv.org/abs/2402.04408
+#   categories: ["machinelearning","medical"]
+#   tags: ["Instance Segmentation", "Data Generation", "Transformer"]
 
 - title: Can SegFormer be a True Competitor to U-Net for Medical Image Segmentation?
   publishedIn:
@@ -240,5 +239,3 @@ publications:
     url: https://link.springer.com/chapter/10.1007/978-3-031-48593-0_8
   categories: ["machinelearning","medical"]
   tags: ["Segmentation", "CNN", "Transformer"]
-
-
